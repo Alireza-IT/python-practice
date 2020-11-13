@@ -57,7 +57,7 @@ if "d" in letters:
 
 letters.count("d")
 
-numbersss = [1, 2, 3, 65, , 7, 4, 2, 5, 1]
+numbersss = [1, 2, 3, 65, 7, 4, 2, 5, 1]
 print(numbersss.sort())
 print(numbersss.sort(reverse=True))
 

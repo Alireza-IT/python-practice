@@ -8,7 +8,7 @@ class Device:
         self.name = name
         Device.count += 1
         # init the device & ping the device and store in result
-        # result = ping the device
+        result = "ping the device"
         if result:
             self.status = 'active'
         else:
@@ -16,6 +16,7 @@ class Device:
 
     def get_status(self):
         # return result based on ping results for self.ip
+        pass
 
 
 class TV(Device):
@@ -38,6 +39,4 @@ class Thermo(Device):
 class SmartTV(TV):
     def turn_on(self):
         # turn on the smart tv from self.ip
-
-
-jadi_tv =
+        pass

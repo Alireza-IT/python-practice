@@ -35,6 +35,3 @@
 
 # if 18 <= age < 65:
 #     print("eligibleeeeeee")
-
-
-if 10 == "10"
